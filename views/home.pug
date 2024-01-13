@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js.js')
+block style 
+  style 
+        include ../static/style.css   
+block content 
+    section#introSection
+        div  Welcome to Ankit's Dance Academy
+        div.small  Eat Sleep Dance Repeat 
+    section#missionSection 
+        h3  Our mission 
+        div.card
+            h3 Dance Perfection 
+            div.card-box
+                div.card-img
+                    img(src="../static/d1.png", alt="Dancer image")
+                div.card-content 
+                    p Dance is not about reaching perfection; it's about embracing the beauty within every movement, finding perfection in the fluidity of expression, and celebrating the uniqueness of each step.
+        div.card
+            h3 Dance the Way you like 
+            div.card-box
+                div.card-img
+                    img(src="../static/d3.png", alt="Dancer image")
+                div.card-content 
+                    p Dance the way you like, for in the rhythm of your heart, you find the truest expression of your soul's joy and freedom.
+        div.card
+            h3 Expert Teaching 
+            div.card-box
+                div.card-img
+                    img(src="../static/d2.png", alt="Dancer image")
+                div.card-content 
+                    p Expert teaching is not just about imparting knowledge; it's about igniting curiosity, nurturing understanding, and inspiring a lifelong passion for learning.
+
+    
+    section#sponsorsSection    
+        h3  Our Sponsors 
+        div#sponsor
+            img(src="../static/Microsoft.png", alt="Microsoft logo" Class="spImage")
+            img(src="../static/Skype logo.png", alt="Skype logo" Class="spImage")
+            img(src="../static/Apple logo.png", alt="Apple logo" Class="spImage")
+            img(src="../static/hp logo.png", alt="Hp logo" Class="spImage")        

@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.myInput{
+    padding: 10px;
+    margin: 10px;
+    width: 30%;
+    border: 2px solid #360505;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn{
+    padding: 10px 24px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+#container{
+    min-height: 88vh;
+}
+#container::before{
+    content: "";
+    position: absolute;
+    background: url(../static/contact.jpg) no-repeat center center/cover;
+    height: 92%;
+    width: 100%;
+    z-index: -1;
+}
